@@ -57,7 +57,7 @@ while 1==1:
         Manual(preguntas)
     elif Accion == 'A': #Aleatorios
         Aleatorio(preguntas)
-    elif Accion == 'P': #Aleatorios
+    elif Accion == 'P':
         printPreguntasRestantes(preguntas)
     elif Accion == 'X':
         break
@@ -73,5 +73,3 @@ while 1==1:
 
 print("Programa finalizado.")
 
-#Desde: 65 hasta:128
-#69,74,77,78,83,100,101,113,119,125,67,114
